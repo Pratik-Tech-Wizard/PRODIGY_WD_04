@@ -1,0 +1,44 @@
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("img.png");
+}
+
+h1{
+  font-size: 3.8rem;
+  color: blue;
+}
+
+#city{
+    width: 200px;
+    height: 25px;
+    font-size: 1.2em;
+    color: maroon;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+    font-size: 1rem;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: deepskyblue;
+    font-weight: 600;
+}
+
+#weatherInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    background-image: url("image.png");
+}
+
